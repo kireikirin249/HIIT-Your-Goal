@@ -4,15 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#94F342"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/mclaren"
+        android:text="HIIT Your Goal!"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="338dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="204dp"
+        android:background="#FFFFFF"
+        android:text="START WORKOUT"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
