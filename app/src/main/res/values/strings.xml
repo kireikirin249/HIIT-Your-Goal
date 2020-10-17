@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HIIT Your Goal</string>
+    <string name="USERNAME">USERNAME</string>
+    <string name="PASSWORD">PASSWORD</string>
 </resources>
