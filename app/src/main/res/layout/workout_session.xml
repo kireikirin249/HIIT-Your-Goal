@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:background="#94F342">
 
     <Button
         android:id="@+id/registerNewAccount"
@@ -34,7 +35,7 @@
         android:text="LOGIN"/>
 
     <Button
-        android:id="@+id/guest"
+        android:id="@+id/guest2"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginTop="130dp"
