@@ -8,37 +8,53 @@
     android:gravity="center_horizontal"
     android:background="#94F342">
 
-    <Button
-        android:id="@+id/registerNewAccount"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="150dp"
-        android:text="REGISTER"/>
-
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:hint="@string/USERNAME"/>
+        android:layout_marginBottom="10dp"
+        android:hint="@string/Name"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:hint="@string/PASSWORD"/>
+        android:layout_marginBottom="10dp"
+        android:hint="@string/Age"/>
 
-    <Button
-        android:id="@+id/login"
+    <EditText
         android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="LOGIN"/>
+        android:layout_marginBottom="10dp"
+        android:hint="@string/Type"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/Time_Goal"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/HR_Upper_Limit"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/HR_Lower_Limit"/>
 
     <Button
-        android:id="@+id/guest2"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="130dp"
-        android:text="Contine as Guest"/>
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/start"/>
 
 </LinearLayout>

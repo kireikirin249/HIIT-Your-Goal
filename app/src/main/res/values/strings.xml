@@ -2,4 +2,11 @@
     <string name="app_name">HIIT Your Goal</string>
     <string name="USERNAME">USERNAME</string>
     <string name="PASSWORD">PASSWORD</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="Time_Goal">Time Goal</string>
+    <string name="HR_Upper_Limit">Heart Rate Upper Limit</string>
+    <string name="HR_Lower_Limit">Heart Rate Lower Limit</string>
+    <string name="Type">Type of HIIT Session</string>
+    <string name="start">Start Workout!</string>
 </resources>
