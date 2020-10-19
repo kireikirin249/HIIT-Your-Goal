@@ -9,4 +9,7 @@
     <string name="HR_Lower_Limit">Heart Rate Lower Limit</string>
     <string name="Type">Type of HIIT Session</string>
     <string name="start">Start Workout!</string>
+    <string name="register">Register</string>
+    <string name="continue_guest">Continue as Guest</string>
+    <string name="lets_go">"Let's Go!"</string>
 </resources>
