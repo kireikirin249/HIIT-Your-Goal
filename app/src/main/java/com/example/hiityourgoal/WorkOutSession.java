@@ -23,7 +23,7 @@ public class WorkOutSession extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), TimerPage.class);
+                Intent intent = new Intent(view.getContext(), timerPage.class);
                 view.getContext().startActivity(intent);
             }
         });
