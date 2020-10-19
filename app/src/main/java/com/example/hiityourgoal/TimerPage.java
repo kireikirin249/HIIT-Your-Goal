@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class timerPage extends AppCompatActivity {
+public class TimerPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
